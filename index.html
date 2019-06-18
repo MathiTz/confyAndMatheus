@@ -1,12 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8" />
+    <title>Tribute Page</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
+    <main id="main">
+      <div id="title">The Neighbourhood</div>
+      <div id="img-div">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/c/c5/The_Neighbourhood_2018.jpg"
+          alt="The Neighbourhood"
+          id="image"
+        />
+        <figcaption id="img-caption">
+          One of the best bands of Indie Rock
+        </figcaption>
+      </div>
+
+      <section id="tribute-info">
+        <ul>
+          <li><strong>2013:</strong> I Love You.</li>
+          <li><strong>2015:</strong> Wiped Out!</li>
+          <li><strong>2018:</strong> The Neightbourhood</li>
+        </ul>
+
+        If you want to know more about this awesome band please,
+        <a
+          href="https://pt.wikipedia.org/wiki/The_Neighbourhood"
+          id="tribute-link"
+          target="_blank"
+        >
+          Click Here</a
+        >
+      </section>
+    </main>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
     <!--
@@ -21,6 +51,6 @@
     - The freeCodeCamp Team
 
     -->
-    <script  src="js/index.js"></script>
+    <script src="js/index.js"></script>
   </body>
 </html>
